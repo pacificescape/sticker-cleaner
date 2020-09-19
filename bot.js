@@ -16,6 +16,8 @@ const bot = new Telegraf(process.env.BOT_TOKEN)
 // const decompressed = await ungzip(compressed);
 
 bot.on('sticker', async (ctx) => {
+  if (!ctx.message.sticker.is_animated) return
+
   console.log(ctx.message.sticker.file_i)
   const fileId = ctx.message.sticker.file_id
 
