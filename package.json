@@ -1,0 +1,25 @@
+{
+  "name": "sticker-cleaner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacificescape/sticker-cleaner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pacificescape/sticker-cleaner/issues"
+  },
+  "homepage": "https://github.com/pacificescape/sticker-cleaner#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "got": "^11.7.0",
+    "node-gzip": "^1.1.2",
+    "telegraf": "^3.38.0"
+  }
+}
